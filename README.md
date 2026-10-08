@@ -2,7 +2,7 @@
 
 SENTRY is an environmental and network monitor for network closets (IDF/MDF rooms). These rooms hold the switches a building depends on, and they are usually hot, closed, and unwatched. SENTRY puts a small sensor node in the rack and reports to a central hub, so a technician sees a problem before the equipment fails.
 
-This repo is the working prototype from UCF Senior Design (EEL 4914).
+This is an independent prototype that I designed and built on my own.
 
 ## How it works
 
@@ -21,11 +21,15 @@ Nodes keep working on their own if the hub is down. The hub only watches; it nev
 
 Build and wiring instructions for the node are in [node/README.md](node/README.md).
 
+## What I did
+
+Everything in this prototype is my own work:
+
+- Chose the hardware: ESP32-S3 board, BME688 sensor, display, and Raspberry Pi
+- Wired and brought up the node
+- Wrote the node firmware and touchscreen interface
+- Set up the Raspberry Pi and wrote the hub software
+
 ## Prototype notes
 
-- The node uses a 1.28 inch round display for development. The final design moves to a 4 inch touchscreen.
-- Wi-Fi, broker address, and API key are read from a local `secrets.h` file that is not in the repo. See `node/src/secrets.example.h`.
-
-## My part
-
-I wrote the node firmware, the touchscreen interface, and the hub software. Hardware bring-up was done together with my senior design team.
+Wi-Fi, broker address, and API key are read from a local `secrets.h` file that is not in the repo. See `node/src/secrets.example.h`.

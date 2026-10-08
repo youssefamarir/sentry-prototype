@@ -1,8 +1,8 @@
-# SENTRY Sensor Node
+﻿# SENTRY Sensor Node
 
 Firmware for the SENTRY sensor node, an ESP32-S3 device that sits in a network closet (IDF/MDF), watches the environment, identifies the switch port it is plugged into, and reports to a Raspberry Pi hub over MQTT.
 
-Built for UCF Senior Design (EEL 4914, Group 2). Written in C on ESP-IDF with PlatformIO.
+Written in C on ESP-IDF with PlatformIO.
 
 ## What it does
 
