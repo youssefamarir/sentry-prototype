@@ -2,7 +2,7 @@
 
 SENTRY is an environmental and network monitor for network closets (IDF/MDF rooms). These rooms hold the switches a building depends on, and they are usually hot, closed, and unwatched. SENTRY puts a small sensor node in the rack and reports to a central hub, so a technician sees a problem before the equipment fails.
 
-This is an independent prototype that I designed and built on my own.
+This is the original prototype, which I designed and built on my own. A full version is in development.
 
 ## How it works
 
