@@ -1,0 +1,15 @@
+# local credentials
+src/secrets.h
+
+# PlatformIO / ESP-IDF build output
+.pio/
+managed_components/
+sdkconfig.*.old
+sdkconfig.old
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# backups
+*.bak
